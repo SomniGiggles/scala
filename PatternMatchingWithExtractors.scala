@@ -21,6 +21,8 @@ object PatternMatchingWithExtractors {
 		}
 	}
 
+	//test
+
 	def apply(x:Int) = x * 2
 	def unapply(z:Int):Option[Int] = if(z % 2 == 0) Some(z / 2) else None
 
